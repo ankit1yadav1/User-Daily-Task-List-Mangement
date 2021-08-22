@@ -1,0 +1,147 @@
+h1{
+    color: teal;
+    font-size: 3em;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin: 5%;
+    font-size: 1.5em;
+}
+
+input[type="text"]{
+    display: block;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 2%;
+    font-size: 1em;
+}
+
+input[type="submit"]{
+    display: block;
+    margin: 5% auto;
+    color: white;
+    background-color: red;
+    padding: 2% 10%;
+    padding: 2% 15%;
+    font-size: 1em;
+}
+
+table {
+    color: #333;
+    background: white;
+    border: 1px solid grey;
+    font-size: 12pt;
+    border-collapse: collapse;
+}
+
+table thead th {
+  color: #777;
+  background: rgba(0,0,0,.1);
+}
+
+table th,
+table td {
+  padding: 0.5em;
+  border: 1px solid lightgrey;
+  text-align: center;
+}
+
+table tr {
+  width: auto;
+}
+
+.pageWrapper {
+    text-align: center;
+    padding: 50% 0;
+}
+
+.loginBox {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    text-align: center;
+    padding: 2%;
+}
+
+#taskEditorForm {
+    text-align: center;
+}
+
+.deleteButton {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.arrowButton {
+    background-color: transparent;
+    border-color: transparent;
+    display:inline-block;
+    z-index: 1;
+}
+
+.editButton {
+    margin: 1%;
+}
+
+.deleteIcon {
+    width: 70%;
+}
+
+.upArrowIcon {
+    width: 70%;
+    z-index: 0;
+}
+
+.downArrowIcon {
+    width: 70%;
+    transform: rotate(180deg);
+}
+
+.widthSmall {
+    width: 10%;
+}
+
+.invalidCred {
+    color: red;
+}
+
+@media screen and (min-width: 768px) {
+
+    table {
+        width: 70%;
+        margin: auto;
+    }
+
+    .pageWrapper {
+        padding: 5% 0;
+    }
+    .loginBox { 
+        width: 30%;
+        margin: auto;
+        padding: 0;
+    }
+
+    #taskEditorForm {
+        width: 30%;
+        margin: auto;
+    }
+
+    .widthSmall {
+        width: 10%;
+    }
+
+    .deleteButton {
+        width: 50%;
+    }
+    
+    .arrowButton {
+        width: 50%;
+    }
+    
+  }

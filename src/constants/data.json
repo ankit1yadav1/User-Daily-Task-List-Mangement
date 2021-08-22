@@ -1,0 +1,24 @@
+{
+    "users": [
+        {
+            "userId" : "01",
+            "userName" : "user1",
+            "password" : "user1",
+            "workList" : [
+                {"taskId":1, "task":"Requirment meeting", "completed": false},
+                {"taskId":2, "task":"Planning component", "completed": false},
+                {"taskId":3, "task":"Coding component", "completed": false}
+            ]
+        },
+        {
+            "userId" : "02",
+            "userName" : "user2",
+            "password" : "user2",
+            "workList" : [
+                {"taskId":1, "task":"Requirment meeting", "completed": false},
+                {"taskId":2, "task":"Design component", "completed": false},
+                {"taskId":3, "task":"Disaply component", "completed": false}
+            ]
+        }
+    ]
+}
